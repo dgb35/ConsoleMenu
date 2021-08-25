@@ -8,9 +8,11 @@ set(FILES
         src/menu/Menu.h
 
         src/example/example.cpp
-        src/example/ContactBook/ContactBook.cpp
-        src/example/ContactBook/ContactBook.h
+        src/example/contact_book/ContactBook.cpp
+        src/example/contact_book/ContactBook.h
         src/example/example.cpp
         )
+
+include_directories("src/menu/")
 
 add_executable(gradebook ${FILES})

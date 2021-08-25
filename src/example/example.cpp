@@ -1,7 +1,7 @@
 // Copyright (c) 2020 DGB. All rights reserved.
 
 #include <iostream>
-#include "../menu/Menu.h"
+#include "Menu.h"
 #include "ContactBook/ContactBook.h"
 using namespace cb;
 
