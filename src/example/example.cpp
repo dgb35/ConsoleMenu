@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include "Menu.h"
-#include "ContactBook/ContactBook.h"
+#include "contact_book/ContactBook.h"
 using namespace cb;
 
 auto main() -> int
